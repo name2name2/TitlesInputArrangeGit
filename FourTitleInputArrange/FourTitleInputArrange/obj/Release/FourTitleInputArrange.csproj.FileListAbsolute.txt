@@ -1,0 +1,13 @@
+D:\2\GitYang_Msi\FourTitleInputArrange\FourTitleInputArrange\FourTitleInputArrange\bin\Release\FourTitleInputArrange.exe.config
+D:\2\GitYang_Msi\FourTitleInputArrange\FourTitleInputArrange\FourTitleInputArrange\bin\Release\FourTitleInputArrange.exe
+D:\2\GitYang_Msi\FourTitleInputArrange\FourTitleInputArrange\FourTitleInputArrange\bin\Release\FourTitleInputArrange.pdb
+D:\2\GitYang_Msi\FourTitleInputArrange\FourTitleInputArrange\FourTitleInputArrange\obj\Release\FourTitleInputArrangeWindow.g.cs
+D:\2\GitYang_Msi\FourTitleInputArrange\FourTitleInputArrange\FourTitleInputArrange\obj\Release\App.g.cs
+D:\2\GitYang_Msi\FourTitleInputArrange\FourTitleInputArrange\FourTitleInputArrange\obj\Release\FourTitleInputArrange_MarkupCompile.cache
+D:\2\GitYang_Msi\FourTitleInputArrange\FourTitleInputArrange\FourTitleInputArrange\obj\Release\FourTitleInputArrange_MarkupCompile.lref
+D:\2\GitYang_Msi\FourTitleInputArrange\FourTitleInputArrange\FourTitleInputArrange\obj\Release\FourTitleInputArrangeWindow.baml
+D:\2\GitYang_Msi\FourTitleInputArrange\FourTitleInputArrange\FourTitleInputArrange\obj\Release\FourTitleInputArrange.g.resources
+D:\2\GitYang_Msi\FourTitleInputArrange\FourTitleInputArrange\FourTitleInputArrange\obj\Release\FourTitleInputArrange.Properties.Resources.resources
+D:\2\GitYang_Msi\FourTitleInputArrange\FourTitleInputArrange\FourTitleInputArrange\obj\Release\FourTitleInputArrange.csproj.GenerateResource.Cache
+D:\2\GitYang_Msi\FourTitleInputArrange\FourTitleInputArrange\FourTitleInputArrange\obj\Release\FourTitleInputArrange.exe
+D:\2\GitYang_Msi\FourTitleInputArrange\FourTitleInputArrange\FourTitleInputArrange\obj\Release\FourTitleInputArrange.pdb

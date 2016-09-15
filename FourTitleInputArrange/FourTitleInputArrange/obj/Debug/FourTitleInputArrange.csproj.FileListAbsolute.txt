@@ -1,0 +1,18 @@
+c:\users\admin\documents\visual studio 2015\Projects\FourTitleInputArrange\FourTitleInputArrange\bin\Debug\FourTitleInputArrange.exe.config
+D:\2\GitYang_Msi\FourTitleInputArrange\FourTitleInputArrange\FourTitleInputArrange\bin\Debug\FourTitleInputArrange.exe.config
+D:\2\GitYang_Msi\FourTitleInputArrange\FourTitleInputArrange\FourTitleInputArrange\obj\Debug\App.g.cs
+D:\2\GitYang_Msi\FourTitleInputArrange\FourTitleInputArrange\FourTitleInputArrange\obj\Debug\FourTitleInputArrange_MarkupCompile.cache
+D:\2\GitYang_Msi\FourTitleInputArrange\FourTitleInputArrange\FourTitleInputArrange\obj\Debug\FourTitleInputArrange_MarkupCompile.lref
+D:\2\GitYang_Msi\FourTitleInputArrange\FourTitleInputArrange\FourTitleInputArrange\bin\Debug\FourTitleInputArrange.exe
+D:\2\GitYang_Msi\FourTitleInputArrange\FourTitleInputArrange\FourTitleInputArrange\bin\Debug\FourTitleInputArrange.pdb
+D:\2\GitYang_Msi\FourTitleInputArrange\FourTitleInputArrange\FourTitleInputArrange\obj\Debug\FourTitleInputArrangeWindow.g.cs
+D:\2\GitYang_Msi\FourTitleInputArrange\FourTitleInputArrange\FourTitleInputArrange\obj\Debug\FourTitleInputArrangeWindow.baml
+D:\2\GitYang_Msi\FourTitleInputArrange\FourTitleInputArrange\FourTitleInputArrange\obj\Debug\FourTitleInputArrange.g.resources
+D:\2\GitYang_Msi\FourTitleInputArrange\FourTitleInputArrange\FourTitleInputArrange\obj\Debug\FourTitleInputArrange.Properties.Resources.resources
+D:\2\GitYang_Msi\FourTitleInputArrange\FourTitleInputArrange\FourTitleInputArrange\obj\Debug\FourTitleInputArrange.csproj.GenerateResource.Cache
+D:\2\GitYang_Msi\FourTitleInputArrange\FourTitleInputArrange\FourTitleInputArrange\obj\Debug\FourTitleInputArrange.exe
+D:\2\GitYang_Msi\FourTitleInputArrange\FourTitleInputArrange\FourTitleInputArrange\obj\Debug\FourTitleInputArrange.pdb
+D:\2\GitYang_Msi\FourTitleInputArrange\FourTitleInputArrange\FourTitleInputArrange\obj\Debug\FourTitleInputArrange.csprojResolveAssemblyReference.cache
+D:\2\GitYang_Msi\FourTitleInputArrangeGit\FourTitleInputArrange\FourTitleInputArrange\bin\Debug\FourTitleInputArrange.exe.config
+D:\2\GitYang_Msi\FourTitleInputArrangeGit\FourTitleInputArrange\FourTitleInputArrange\obj\Debug\FourTitleInputArrange.exe
+D:\2\GitYang_Msi\FourTitleInputArrangeGit\FourTitleInputArrange\FourTitleInputArrange\obj\Debug\FourTitleInputArrange.pdb

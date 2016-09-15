@@ -1,0 +1,43 @@
+﻿<Window x:Class="FourTitleInputArrange.FourTitleInputArrangeWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:FourTitleInputArrange"
+        mc:Ignorable="d" FontSize="16"
+        Title="FourTitleInputArrangeWindow" Height="450" Width="525">
+    
+    
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        
+        <StackPanel Grid.Row="0">
+            <Label Content="標題1"/>
+            <TextBox Name="T1"/>
+
+            <Label Content="標題2"/>
+            <TextBox Name="T2"/>
+
+            <Label Content="標題3"/>
+            <TextBox Name="T3"/>
+
+            <Label Content="標題4"/>
+            <TextBox Name="T4"/>
+
+
+            
+
+
+            <Button Content="開始排列(_R)" Click="Arrange_OnClick"/>
+
+        </StackPanel>
+
+        <TextBox Grid.Row="1"
+            Name="TO" IsReadOnly="True"  VerticalScrollBarVisibility="Visible"
+                 />
+    </Grid>
+    
+</Window>
