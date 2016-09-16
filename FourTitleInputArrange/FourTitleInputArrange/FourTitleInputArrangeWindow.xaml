@@ -6,38 +6,48 @@
         xmlns:local="clr-namespace:FourTitleInputArrange"
         mc:Ignorable="d" FontSize="16"
         Title="FourTitleInputArrangeWindow" Height="450" Width="525">
-    
-    
+
+
     <Grid>
-        <Grid.RowDefinitions>
-            <RowDefinition Height="Auto"/>
-            <RowDefinition Height="*"/>
-        </Grid.RowDefinitions>
+        <Grid.Background>
+                <LinearGradientBrush EndPoint="0,1" StartPoint="0,0">
+                    <GradientStop Color="#FFFFC934" Offset="1"/>
+                    <GradientStop Color="#FFFFFFFF" Offset="0"/>
+                </LinearGradientBrush>
+        </Grid.Background>
         
-        <StackPanel Grid.Row="0">
-            <Label Content="標題1"/>
-            <TextBox Name="T1"/>
+        
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/><!--Label-->
+            <RowDefinition /><!--Tbx-->
+            <RowDefinition Height="Auto"/><!--Splitter-->
+            <RowDefinition /><!--Grid-->
+        </Grid.RowDefinitions>
 
-            <Label Content="標題2"/>
-            <TextBox Name="T2"/>
+        <Label Content="請在下方方塊輸入所有標題:  (點擊此處以閱讀使用說明)" Grid.Row="0" Background="Transparent"
+               MouseDown="Label_OnMouseDown"/>
+        <TextBox Name="T1" Grid.Row="1" Background="Transparent" VerticalScrollBarVisibility="Auto"
+                 IsReadOnly="False" AcceptsReturn="True" BorderBrush="Khaki" Margin="0" BorderThickness="3"/>
 
-            <Label Content="標題3"/>
-            <TextBox Name="T3"/>
+        <GridSplitter Grid.Row="2" Height="5" HorizontalAlignment="Stretch" Background="LightBlue"/>
 
-            <Label Content="標題4"/>
-            <TextBox Name="T4"/>
+        <Grid Grid.Row="3">
 
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition />
+                <!--OutTbx-->
+            </Grid.RowDefinitions>
+            <Button Grid.Row="0" Content="開始排列(_R)" Click="Arrange_OnClick"  />
 
+            <FlowDocumentScrollViewer Grid.Row="1">
+                <FlowDocument Background="Transparent">
+                    <Paragraph Name="TO"/>
+                </FlowDocument>
+            </FlowDocumentScrollViewer>  
             
-
-
-            <Button Content="開始排列(_R)" Click="Arrange_OnClick"/>
-
-        </StackPanel>
-
-        <TextBox Grid.Row="1"
-            Name="TO" IsReadOnly="True"  VerticalScrollBarVisibility="Visible"
-                 />
+            
+        </Grid>
     </Grid>
-    
+
 </Window>

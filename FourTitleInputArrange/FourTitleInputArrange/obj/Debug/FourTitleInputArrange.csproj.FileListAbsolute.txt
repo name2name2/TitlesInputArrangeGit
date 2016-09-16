@@ -27,3 +27,5 @@ D:\2\GitYang_Msi\FourTitleInputArrangeGit\FourTitleInputArrange\FourTitleInputAr
 D:\2\GitYang_Msi\FourTitleInputArrangeGit\FourTitleInputArrange\FourTitleInputArrange\obj\Debug\FourTitleInputArrange.g.resources
 D:\2\GitYang_Msi\FourTitleInputArrangeGit\FourTitleInputArrange\FourTitleInputArrange\obj\Debug\FourTitleInputArrange.Properties.Resources.resources
 D:\2\GitYang_Msi\FourTitleInputArrangeGit\FourTitleInputArrange\FourTitleInputArrange\obj\Debug\FourTitleInputArrange.csproj.GenerateResource.Cache
+D:\2\GitYang_Msi\FourTitleInputArrangeGit\FourTitleInputArrange\FourTitleInputArrange\bin\Debug\ArbitaryNumeralSystem.exe
+D:\2\GitYang_Msi\FourTitleInputArrangeGit\FourTitleInputArrange\FourTitleInputArrange\bin\Debug\ArbitaryNumeralSystem.pdb

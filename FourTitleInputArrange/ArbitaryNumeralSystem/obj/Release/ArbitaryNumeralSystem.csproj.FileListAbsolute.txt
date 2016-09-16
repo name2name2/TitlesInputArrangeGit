@@ -1,0 +1,5 @@
+D:\2\GitYang_Msi\FourTitleInputArrangeGit\FourTitleInputArrange\ArbitaryNumeralSystem\bin\Release\ArbitaryNumeralSystem.exe.config
+D:\2\GitYang_Msi\FourTitleInputArrangeGit\FourTitleInputArrange\ArbitaryNumeralSystem\bin\Release\ArbitaryNumeralSystem.exe
+D:\2\GitYang_Msi\FourTitleInputArrangeGit\FourTitleInputArrange\ArbitaryNumeralSystem\bin\Release\ArbitaryNumeralSystem.pdb
+D:\2\GitYang_Msi\FourTitleInputArrangeGit\FourTitleInputArrange\ArbitaryNumeralSystem\obj\Release\ArbitaryNumeralSystem.exe
+D:\2\GitYang_Msi\FourTitleInputArrangeGit\FourTitleInputArrange\ArbitaryNumeralSystem\obj\Release\ArbitaryNumeralSystem.pdb

@@ -3,3 +3,4 @@ D:\2\GitYang_Msi\FourTitleInputArrangeGit\FourTitleInputArrange\ArbitaryNumeralS
 D:\2\GitYang_Msi\FourTitleInputArrangeGit\FourTitleInputArrange\ArbitaryNumeralSystem\bin\Debug\ArbitaryNumeralSystem.pdb
 D:\2\GitYang_Msi\FourTitleInputArrangeGit\FourTitleInputArrange\ArbitaryNumeralSystem\obj\Debug\ArbitaryNumeralSystem.exe
 D:\2\GitYang_Msi\FourTitleInputArrangeGit\FourTitleInputArrange\ArbitaryNumeralSystem\obj\Debug\ArbitaryNumeralSystem.pdb
+D:\2\GitYang_Msi\FourTitleInputArrangeGit\FourTitleInputArrange\ArbitaryNumeralSystem\obj\Debug\ArbitaryNumeralSystem.csprojResolveAssemblyReference.cache

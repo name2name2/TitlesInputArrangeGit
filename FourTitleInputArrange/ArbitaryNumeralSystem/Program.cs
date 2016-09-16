@@ -8,7 +8,7 @@ using System.Windows.Forms;
 
 namespace ArbitaryNumeralSystem
 {
-    class Program
+    public class Program
     {
         [STAThread]
         static void Main(string[] args)
@@ -34,10 +34,8 @@ namespace ArbitaryNumeralSystem
         {
             string print = "";
             Console.WriteLine();
-
-            int positionCount = eachPlaceSize.Count();
-
-            int[] currentNum = new int[positionCount]; //inital to all 0
+            
+            int[] currentNum = new int[eachPlaceSize.Count()]; //inital to all 0
 
             while (currentNum[0] < eachPlaceSize[0])
             {
@@ -108,7 +106,7 @@ namespace ArbitaryNumeralSystem
                 catch (Exception e){Console.WriteLine("讀取錯誤:::"+e.Message);}
             }
         }
-
+        
 
 
         
