@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace FourTitleInputArrange.Properties {
+namespace ArbitaryNumeralSystem.Properties {
     
     
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
@@ -20,6 +20,20 @@ namespace FourTitleInputArrange.Properties {
         public static Settings Default {
             get {
                 return defaultInstance;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("本程式會列出進位樣式的所有數字(也可說是排列組合)，並複製到剪貼簿，\r\n舉例：普通二進位、三位數，樣式即為222，\r\n程式就會印出\r\n000\r\n001\r\n010\r" +
+            "\n..略\r\n110\r\n111\r\n等8個數字(組合)\r\n\r\n若是輸入43，\r\n則會印出\r\n00\r\n01\r\n02\r\n10\r\n11\r\n12\r\n...略\r\n30\r\n31" +
+            "\r\n32\r\n-------------------------\r\n")]
+        public string help {
+            get {
+                return ((string)(this["help"]));
+            }
+            set {
+                this["help"] = value;
             }
         }
     }

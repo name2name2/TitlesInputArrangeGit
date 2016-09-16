@@ -1,0 +1,33 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="ArbitaryNumeralSystem.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="help" Type="System.String" Scope="User">
+      <Value Profile="(Default)">本程式會列出進位樣式的所有數字(也可說是排列組合)，並複製到剪貼簿，
+舉例：普通二進位、三位數，樣式即為222，
+程式就會印出
+000
+001
+010
+..略
+110
+111
+等8個數字(組合)
+
+若是輸入43，
+則會印出
+00
+01
+02
+10
+11
+12
+...略
+30
+31
+32
+-------------------------
+</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>
