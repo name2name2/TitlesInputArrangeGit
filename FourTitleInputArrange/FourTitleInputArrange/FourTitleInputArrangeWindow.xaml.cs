@@ -56,6 +56,7 @@ xc
 
             string result = ArrangeOutput(eachPlaceSize, titles);
             Clipboard.SetText(result);
+            TO.Inlines.Clear();
             TO.Inlines.Add(new Run(result));
 
         }

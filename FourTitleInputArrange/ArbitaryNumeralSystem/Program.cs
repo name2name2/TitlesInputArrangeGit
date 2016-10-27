@@ -63,8 +63,7 @@ namespace ArbitaryNumeralSystem
 
             int loopTimes = 0;//底下的while跑了幾次，以決定進位時是進哪一位，還有多少更小的位數要被重設為0
 
-            bool continu = true;//是否繼續迴圈
-            while (continu)
+            while (true)
             {
                 if (loopTimes == eachPlaceSize.Count() )//到最大值時跳出
                     break;
@@ -73,7 +72,7 @@ namespace ArbitaryNumeralSystem
                     for (int i = 0, j = lastPos; i < loopTimes; i++, j--)//把後方位數設0
                         currentNum[j] = 0;
 
-                    continu = false;//結束這次的加法
+                    break;//結束這次的加法
                 }
                 else
                 {
