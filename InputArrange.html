@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+
+<html>
+
+    
+<style>
+* {
+ font-size: 105%;
+}
+</style>
+
+<title>name2name2 name2name2 name2name2 name2name2 name2name2 name2name2 name2name2 name2name2 ptt</title>
+
+<table>
+	<tr>
+		<th Font>Please Enter Titles Below</th>
+		<th><button onclick="test()">Click to Arrange</button></th>
+	</tr>
+	<tr>
+		<td colspan="2">
+			<textarea name="tx1" id="txIn" cols="60" rows="13"></textarea>
+		</td>
+	</tr>
+	<tr>
+		<th>The Arrange Result</th>
+	</tr>
+	<tr>
+		<td colspan="2">
+			<textarea name="tx2" id="txOut" cols="60" rows="13"></textarea>
+		</td>
+	</tr>
+</table>
+
+<script>
+    function test(){
+
+        var txIn = document.getElementById("txIn");
+        var txOut = document.getElementById("txOut");
+        
+
+
+        //生成eachPlaceSize  titles
+        var titles = [];  
+        var eachPlaceSize = [];
+        txIn.value.split("\n").forEach(
+            function(eachline,i,a){
+                if(!IsEmptyOrWhiteSpace(eachline)){
+                    titles.push(eachline);
+                    eachPlaceSize.push(eachline.length);
+                }
+                                  
+            }); 
+
+        //eachPlaceSize.forEach(
+        //    function(v,i,a){console.log(v);}
+        //);
+
+        //currentNum
+        var currentNum = new Array(eachPlaceSize.length).fill(0);
+        //currentNum.forEach(PrintResults);
+
+
+
+        //ArrangeOutput(eachPlaceSize, titles);
+
+        //while(currentNum[0] < eachPlaceSize[0]){
+//            output+=            "a" +      "\r\n";
+//            currentNum[0]++;
+//            console.log(output);
+//        }
+
+        var result = ArrangeOutput(eachPlaceSize, titles);
+
+
+        txOut.value = result;
+
+    }
+
+
+        
+
+
+
+
+function ArrangeOutput(eachPlaceSize, titles){
+        
+        var output = "";
+        currentNum = Array.apply(null, Array(eachPlaceSize.length)).map(function(v,i,a){return 0;});
+
+        //currentNum.forEach(
+          //  function(v,i,a){   console.log(v);  }
+            //);
+        
+        while(currentNum[0] < eachPlaceSize[0]){
+            output+=TitlesToArrangeString(currentNum, titles)+"\r\n";
+            AddCarry(currentNum, eachPlaceSize);
+        }
+        
+        return output;
+    }
+
+function TitlesToArrangeString(currentNum, titles){
+     var tostring = "";
+     var cursor = 0;
+    titles.forEach( 
+        function (title, i ,a){ tostring+=title[currentNum[cursor++]]; }
+    );
+    return tostring;
+}
+
+function AddCarry(currentNum, eachPlaceSize){
+     var lastPos = eachPlaceSize.length - 1;
+
+     var workingPos = lastPos;
+
+     var loopTimes = 0;
+
+     var continu = true;
+     while (continu){
+        if(loopTimes == eachPlaceSize.length)
+            break;
+
+        if(++currentNum[workingPos] < eachPlaceSize[workingPos]){
+            
+            for(i=0, j=lastPos;i<loopTimes;i++,j--)
+                currentNum[j]=0;
+            continu=false;
+        }
+        else{
+            workingPos--;
+            loopTimes++;
+        }
+    }
+}
+
+
+
+
+
+function PrintResults(value, index, ar) {
+    console.log("Print:" + value);
+    //alert(" index: " + index);
+    //alert("<br />");
+    }
+
+
+function ShowResults(value, index, ar) {
+    alert("value: " + value);
+    //alert(" index: " + index);
+    //alert("<br />");
+    }
+
+    function IsEmptyOrWhiteSpace(str){
+    return str === null || str.match(/^ *$/) !== null;
+    }
+
+
+
+</script>
+
+
+</html>
